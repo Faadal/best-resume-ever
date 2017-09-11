@@ -66,7 +66,7 @@
               {{person.contact.website}}</a>
       <span>;&nbsp;</span>
       <a :href="'https://github.com/'+person.contact.github">
-                https://github.com/{{person.contact.github}}</a>
+                github.com/{{person.contact.github}}</a>
     </div>
   </div>
 </div>
@@ -128,7 +128,7 @@ export default Vue.component('oblique', {
       position:absolute;
       top:0;
       right:0;
-      background:url('../assets/person.jpg');
+      background:url('../assets/favio.png');
       background-position:center;
       background-size:cover;
     }

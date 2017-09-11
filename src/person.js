@@ -1,85 +1,92 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
-    last: 'Doe',
+    first: 'Favio',
+    last: 'Vázquez',
   },
-  position: 'Software Developer',
+  position: 'Data Scientist',
   birth: {
     year: 1990,
-    location: 'New York'
+    location: 'Venezuela'
   },
   experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+      company: 'BBVA Data & Analytics',
+      position: 'Data Scientist / Tools Manager MX',
+      timeperiod: 'since July 2017',
+      description: ' Data science and Machine Learning with Apache Spark. Maintain projects lifecycles with testing and ' +
+      'CI using Jenkins and Travis.'
     },
     {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremly important tasks.'
+      company: 'Iron',
+      position: 'Chief Data Scientist',
+      timeperiod: 'since May 2017',
+      description: 'Leverage experience with consulting to define business problems, work with and manipulate data, ' +
+      'develop data science and analytical algorithms and solutions, and execute analytical models into production.'
     },
     {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+      company: 'Nuclear Sciences Institute - UNAM',
+      position: 'Associate Student & Investigator',
+      timeperiod: 'July 2015 - July 2017',
+      description: 'Big Data analytics for Scientific Computing and Cosmological Simulations.'
     }
   ],
   education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
+      degree: 'Master of Science',
+      timeperiod: 'August 2015 -  August 2017',
+      description: 'Major in Physical Sciences, UNAM, Mexico City, Mexico.'
     },
     {
       degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
+      timeperiod: 'March 2010 - June 2014',
+      description: 'Major in Physics, LUZ, Maracaibo, Venezuela.'
+    },
+    {
+      degree: 'Bachelor of Science',
+      timeperiod: 'January 2010 - July 2015',
+      description: 'Major in Computer Engineering, URU, Maracaibo, Venezuela.'
     }
   ],
   // skill level goes 0 to 100
   skills: [{
-      name: 'HTML5',
-      level: '99'
+      name: 'Python',
+      level: '98'
     },
     {
-      name: 'CSS3',
+      name: 'Apache Spark',
       level: '95'
     },
     {
-      name: 'JavaScript',
+      name: 'R',
       level: '97'
     },
     {
-      name: 'Node.js',
+      name: 'Machine Learning',
       level: '93'
     },
     {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
-      level: '80'
-    },
-    {
-      name: 'ES.Next',
+      name: 'Deep Learning',
       level: '70'
     },
     {
-      name: 'Docker',
+      name: 'Big Data Analytics',
+      level: '95'
+    },
+    {
+      name: 'Scala',
+      level: '50'
+    },
+    {
+      name: 'SQL',
       level: '99'
     }
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
+  skillDescription: 'Also proficient in Software Development and Projects Cycle.',
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    email: 'favio.vazquezp@gmail.com',
+    phone: '+52 55 2686 5554',
+    street: 'Lago Biwa',
+    city: 'Mexico City',
+    website: 'linkedin.com/in/faviovazquez',
+    github: 'faviovazquez'
   }
 };

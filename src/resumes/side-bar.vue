@@ -37,7 +37,7 @@
                   <i class="fa fa-circle" aria-hidden="true"></i>
               </div>
               <div class="contact-row">
-                  <a :href="'https://github.com/'+person.contact.github">https://github.com/{{person.contact.github}}</a>
+                  <a :href="'https://github.com/'+person.contact.github">github.com/{{person.contact.github}}</a>
               </div>
           </div>
       </div>
@@ -145,7 +145,7 @@ export default Vue.component('side-bar', {
       overflow:hidden;
       .img {
         flex:none;
-        background:url('../assets/person.jpg');
+        background:url('../assets/favio.png');
         background-position:center;
         background-size:cover;
         height:250px;

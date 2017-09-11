@@ -41,7 +41,7 @@
           <td><i class="fa fa-globe" aria-hidden="true"></i></td>
         </tr>
         <tr>
-          <td><a :href="'https://github.com/'+person.contact.github">https://github.com/{{person.contact.github}}</a></td>
+          <td><a :href="'https://github.com/'+person.contact.github">github.com/{{person.contact.github}}</a></td>
           <td><i class="fa fa-github" aria-hidden="true"></i></td>
         </tr>
       </table>
@@ -152,7 +152,7 @@ export default Vue.component('left-right', {
       width:100%;
       height:100%;
       border-radius:50%;
-      background-image:url('../assets/person.jpg');
+      background-image:url('../assets/favio.png');
       background-repeat:none;
       background-position:center;
       background-size:cover;

@@ -65,7 +65,7 @@
               </div>
               <div class="text">
                   <h4>@{{person.contact.github}}</h4>
-                  <span>https://github.com/{{person.contact.github}}</span>
+                  <span>github.com/{{person.contact.github}}</span>
               </div>
           </div>
       </a>
@@ -296,6 +296,7 @@ export default Vue.component('material-blue', {
       position:absolute;
       right:25px;
       bottom:25px;
+      color:#ffffff;
       span {
         margin-top:-5px;
         font-size:10pt;
@@ -380,7 +381,7 @@ export default Vue.component('material-blue', {
     }
   }
   #myselfpic {
-    background-image:url('../assets/person.jpg');
+    background-image:url('../assets/favio.png');
     color:black;
   }
   #githubIcon {
